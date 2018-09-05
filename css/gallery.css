@@ -1,0 +1,67 @@
+/*header settings*/
+body{
+	padding-top: 80px;
+}
+nav.navbar{
+	background-color: #2c3e50;
+}
+
+nav.navbar-dark a{
+	color: white;
+}
+
+div#navbarNav li.nav-item a.nav-link{
+	color: white;
+}
+
+nav.navbar-dark button.navbar-toggler {
+	border: 1.5px solid white;
+	border-radius: 5px;
+	padding: 0 2px;
+}
+
+div.navbar-brand > a:hover{
+	text-decoration: none;
+}
+
+div.navbar-brand > a:hover, div#navbarNav a:hover{
+	cursor: pointer;
+}
+/*end header settings*/
+
+/*main-content settings*/
+div#main-content h1, div.main-content p{
+	color: #2c3e50;
+}
+
+div#main-content h1{
+	font-stretch: 
+}
+
+div#main-content div#intro{
+	margin-bottom: 25px;
+	padding: 40px 40px;
+	background: #ecf0f1;
+}
+
+section#photos div div{
+	margin-bottom: 25px;
+}
+
+@media (max-width: 575px) {
+
+	section#photos{
+		justify-content: center;
+	}
+
+	section#photos div div{
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 991px) {
+	li.nav-item:hover {
+		font-size: 1.2em;
+	}
+}
+/*end main-content settings*/
